@@ -1,0 +1,14 @@
+[clickhouse]
+name=clickhouse
+baseurl=https://packagecloud.io/altinity/clickhouse/el/7/$basearch
+gpgcheck=1
+enabled=1
+gpgkey=https://packagecloud.io/altinity/clickhouse/gpgkey
+
+
+[clickhouse-source]
+name=clickhouse-source
+baseurl=https://packagecloud.io/altinity/clickhouse/el/7/SRPMS
+gpgcheck=1
+enabled=1
+gpgkey=https://packagecloud.io/altinity/clickhouse/gpgkey
