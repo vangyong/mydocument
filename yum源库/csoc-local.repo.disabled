@@ -1,0 +1,22 @@
+
+#
+# S.W.A.D PROPRIETARY AND CONFIDENTIAL
+# __________________
+# 
+# Copyright (c) 2015-2017 S.W.A.D All Rights Reserved.
+# 
+# NOTICE:  All information contained herein is, and remains
+# the property of S.W.A.D and its suppliers, if any. The intellectual
+# and technical concepts contained herein are proprietary to S.W.A.D
+# and its suppliers, and are protected by trade secret or copyright law.
+# Dissemination of this information or reproduction of this material,
+# in whole or in part, is strictly forbidden unless prior written
+# permission is obtained from S.W.A.D.
+#
+
+[csoc]
+name=CyberSOC
+baseurl=file:///media/repositories
+enabled=1
+gpgcheck=0
+

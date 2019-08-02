@@ -1,0 +1,150 @@
+
+#
+# S.W.A.D PROPRIETARY AND CONFIDENTIAL
+# __________________
+# 
+# Copyright (c) 2015-2017 S.W.A.D All Rights Reserved.
+# 
+# NOTICE:  All information contained herein is, and remains
+# the property of S.W.A.D and its suppliers, if any. The intellectual
+# and technical concepts contained herein are proprietary to S.W.A.D
+# and its suppliers, and are protected by trade secret or copyright law.
+# Dissemination of this information or reproduction of this material,
+# in whole or in part, is strictly forbidden unless prior written
+# permission is obtained from S.W.A.D.
+#
+
+[dvd1]
+name=Cent OS 6.5 DVD1
+baseurl=http://10.4.4.130/c65-dvd1
+enabled=1
+gpgcheck=0
+
+[dvd2]
+name=Cent OS 6.5 DVD2
+baseurl=http://10.4.4.130/c65-dvd2
+enabled=1
+gpgcheck=0
+
+[elrepo]
+name=ELRepo Kernel Repository 
+baseurl=http://10.4.4.130/elrepo
+enabled=1
+gpgcheck=0
+
+[elasticsearch]
+name=Elastic Search
+baseurl=http://10.4.4.130/elasticsearch
+enabled=1
+gpgcheck=0
+
+[epel]
+name=EPEL Repository 
+baseurl=http://10.4.4.130/epel
+enabled=1
+gpgcheck=0
+
+[mongodb]
+name=Mongodb
+baseurl=http://10.4.4.130/mongodb
+enabled=1
+gpgcheck=0
+
+[nginx]
+name=Nginx
+baseurl=http://10.4.4.130/nginx
+enabled=1
+gpgcheck=0
+
+[oracle]
+name=Oracle VirtualBox
+baseurl=http://10.4.4.130/oracle
+enabled=1
+gpgcheck=0
+
+[support]
+name=Essential support packages
+baseurl=http://10.4.4.130/support
+enabled=1
+gpgcheck=0
+
+[boost]
+name=Boost Libraries
+baseurl=http://10.4.4.130/boost
+enabled=1
+gpgcheck=0
+
+[enetres]
+name=Enetres
+baseurl=http://10.4.4.130/enetres
+enabled=1
+gpgcheck=0
+
+[pramberger]
+name=Pramberger
+baseurl=http://10.4.4.130/pramberger
+enabled=1
+gpgcheck=0
+
+[cloudera]
+name=Cloudera
+baseurl=http://10.4.4.130/cloudera
+enabled=1
+gpgcheck=0
+
+[ius]
+name=IUS
+baseurl=http://10.4.4.130/ius
+enabled=1
+gpgcheck=0
+exclude=mysql56u*
+
+[forensics]
+name=Forensics
+baseurl=http://10.4.4.130/forensics
+enabled=1
+gpgcheck=0
+
+[docker]
+name=Docker
+baseurl=http://10.4.4.130/docker
+enabled=1
+gpgcheck=0
+
+[marmotte]
+name=Marmotte
+baseurl=http://10.4.4.130/marmotte
+enabled=1
+gpgcheck=0
+
+[saltstack]
+name=Saltstack
+baseurl=http://10.4.4.130/saltstack
+enabled=1
+gpgcheck=0
+
+[slc]
+name=SLC
+baseurl=http://10.4.4.130/slc
+enabled=1
+gpgcheck=0
+
+[fluentd]
+name=Fluentd
+baseurl=http://10.4.4.130/fluentd
+enabled=1
+gpgcheck=0
+
+[mysql-community]
+name=MySQL Community Edition
+baseurl=http://10.4.4.130/mysql-community
+enabled=1
+gpgcheck=0
+
+#[arangodb]
+#name=ArangoDB
+#baseurl=http://10.4.4.130/arangodb
+#enabled=1
+#gpgcheck=0
+
+
