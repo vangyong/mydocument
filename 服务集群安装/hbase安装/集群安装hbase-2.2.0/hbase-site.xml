@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+/**
+ *
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<configuration>
+
+<property>  
+   <!--RegionServer 的共享目录，用来持久化 Hbase-->
+   <name>hbase.rootdir</name>
+   <!--如果要指定HDFS上的目录,端口号要与hdfs-site.xml中设为一致-->
+   <value>hdfs://mini1:9000/hbase</value>
+</property>
+
+<property>  
+	<!--启用分布式集群 -->
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+</property>
+<property>   
+	<!--默认HMaster HTTP访问端口-->
+    <name>hbase.master.info.port</name>
+    <value>16010</value>
+</property>
+<property>   
+	<!--默认HRegionServer HTTP访问端口-->
+	<name>hbase.regionserver.info.port</name>
+	<value>16030</value>
+</property>
+<property>
+  <name>hbase.zookeeper.quorum</name>
+  <value>mini1:2181,mini2:2181,mini3:2181</value>
+</property>
+<property>
+　 　<name>hbase.zookeeper.property.dataDir</name>
+　 　<value>/usr/local/hbase-2.0.2/tmp/zk/data</value>
+　</property>
+<property>
+  <name>hbase.coprocessor.abortonerror</name>
+  <value>false</value>
+</property>
+
+</configuration>
