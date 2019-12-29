@@ -28,4 +28,10 @@
     <value>file:///data/datas/hbase</value>
 </property>
 
+<!--使用外部zookeeper 必须配置为true -->
+<property>
+    <name>hbase.cluster.distributed</name> 
+    <value>true</value>
+</property>
+
 </configuration>
