@@ -28,10 +28,45 @@
     <value>file:///data/datas/hbase</value>
 </property>
 
+<property>
+     <name>hbase.tmp.dir</name>
+     <value>/data/datas/hbase/tmp</value>
+</property>
+
+<property>
+      <name>fs.defaultFS</name>
+      <value>file:///data/datas/hbase/dfs</value>
+</property>
+
+ <!-- hbase的端口 -->
+<property>
+      <name>hbase.zookeeper.property.clientPort</name>
+      <value>2181</value>
+      <description>Property from ZooKeeper'sconfig zoo.cfg. The port at which the clients will connect.</description>
+</property>
+
+
 <!--使用外部zookeeper 必须配置为true -->
 <property>
     <name>hbase.cluster.distributed</name> 
     <value>true</value>
+</property>
+
+ <!--  zookeeper 集群配置。如果是集群，则添加其它的主机地址 -->
+<property>
+     <name>hbase.zookeeper.quorum</name>
+     <value>127.0.0.1:2181</value>
+</property>
+
+<!--  超时时间 -->
+<property>
+     <name>zookeeper.session.timeout</name>
+     <value>120000</value>
+</property>
+
+<property>
+    <name>zookeeper.znode.parent</name>
+    <value>/hbase/master</value>
 </property>
 
 </configuration>
